@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    sh 'g++ -o PES2UG22CS338 main/hello.cpp'
+                    sh 'g++ -o PES2UG22CS338 hello.cpp' // Intentional error in the Jenkinsfile
                 }
             }
         }
